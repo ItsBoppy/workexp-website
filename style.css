@@ -1,0 +1,217 @@
+
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+@font-face {
+    font-family: 'Mofur';
+    src: url('assets/fonts/MonofurNerdFont-Regular.ttf') format('truetype');
+}
+
+
+
+
+*{
+    margin: 0px;
+}
+body{
+    background-color: #F8EDF2;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.mainheader{
+    color: #F8EDF2;
+    background-color: #8174A0;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    border-width: 0.5em;
+    border-style: solid;
+    border-color: #EFB6C8;
+   font-size: larger;
+
+
+}
+main {
+    flex: 1;
+  }
+.headerbuttons {
+    margin: 1em;
+}
+
+
+/* CSS */
+button {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #8174A0;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+button:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+button-active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+#maintitle, h3 {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 300%;
+    font-weight: 400;
+    font-style: bold;
+  }
+  
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+   padding: 0.5em;
+    border-color: #A888B5;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F3E6ED;    
+    padding-bottom: 7.5em;
+  }
+h3{
+    padding-right: 1em;
+}
+.cake{
+    border: 0.5em solid #8174A0;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 12px 12px 2px 1px #D89BAA;
+    min-width: 60%;
+  }
+
+  .content-text{
+    max-width: 20em;
+  }
+
+  footer{
+    display: flex;
+    text-align: right;
+    align-items:center;
+    justify-items: center;
+    justify-content: space-between;
+  font-family: Mofur;
+    background-color: #8174A0;
+    display: flex;
+    justify-content: space-between;
+    border-width: 0.5em;
+    border-style: solid;
+    border-color: #EFB6C8;
+   min-height: 10em;
+  }
+
+  .right, .left{
+    display: flex;
+    align-items:center;
+  }
+
+  .txt {
+    align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #8174A0;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  }
+
+  .logo {
+    margin-top: 10px;
+    max-width: 70px;
+    max-height: 70px;
+   border:solid 1px #000;
+    background-color: #D6D6E7;
+    border-radius: 15%;
+    box-shadow: rgba(212, 212, 212, 0.4) 0px 2px 4px, rgba(250, 250, 250, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+ .logodiv{
+  display: flex;
+  justify-items: center;
+justify-content: space-evenly;
+  gap: 1em;
+ }
+
+ .storepic{
+  max-width: 15em;
+  border-width: 0em;
+  border-style: solid;
+  border-radius: 1em;
+ }
+
+ .productpage{
+  row-gap: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+ }
+
+ .item{
+  border-width: 0.5em;
+  border-style: solid;
+  border-radius: 1em;
+  max-width: 15em;
+  background-color:#EFB6C8;
+ }
+
+.itemdes{
+  max-width: 15em;
+}
