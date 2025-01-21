@@ -1,6 +1,6 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shrikhand&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shrikhand&display=swap');
 
 @font-face {
   font-family: 'Mofur';
@@ -34,10 +34,13 @@ body {
   flex-direction: column;
 
 }
-header, footer {
+
+header,
+footer {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   z-index: 1;
 }
+
 .mainheader {
 
   flex-shrink: 0;
@@ -54,7 +57,7 @@ header, footer {
   border-color: #EFB6C8;
   font-size: larger;
 
- 
+
 }
 
 main {
@@ -241,6 +244,7 @@ footer {
 
 .logo {
   margin-top: 10px;
+
   max-width: 70px;
   max-height: 70px;
   border: solid 1px #000;
@@ -256,10 +260,28 @@ footer {
   gap: 1em;
   margin-left: 1em;
 }
-.headerbuttons{
+
+.headerbuttons {
   justify-content: end;
 }
 
+#store-title {
+  display: flex;
+  font-style: italic;
+  justify-content: center;
+  align-content: center;
+  font-family: "Playwrite VN", serif;
+  color: #8171a7;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Add bold shadow */
+}
+
+#store-title span {
+  border-bottom: 0.1em dotted #8174A0; /* Bottom border for the span */
+  display: inline-block; /* Ensures the border width matches the text */
+  padding: 0 0.5em; /* Optional: Adds space around the border */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Add bold shadow */
+
+}
 .storepic {
   display: flex;
   justify-content: flex-start;
@@ -268,18 +290,21 @@ footer {
   /* border-color: #8174A0; */
   /* border-width: pxem; */
   /* border-style: solid; */
-  border-bottom:solid, #000, 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #8174A0;
   border-top-left-radius: 0.9em;
   border-top-right-radius: 0.9em;
   /* border-bottom-width: 10px; */
-  /* border-top-left-radius: 5%;
-  border-top-right-radius: 5%; */
+
+
 
 }
+
 
 .productpage {
   row-gap: 3em;
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-evenly;
   justify-items: center;
   align-items: center;
@@ -297,26 +322,42 @@ footer {
   text-align: center;
 }
 
+.item-button {
+  margin: 0.5em;
+}
 
 .itemdes {
-  color: #A888B5;
+  color: #4E2A6E;
   margin: 1%;
   max-width: 15em;
   text-align: left;
-  font-family:"Roboto Mono", serif;
+  font-family: "Courier Prime", serif;
   font-size: 1em;
   /* item description */
-  
+
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+  /* Soft and subtle shadow */
 }
-.itemhead{
-  font-family: "Noto-Sans", serif;
-  	
-text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+
+.itemhead {
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  border-bottom-width: 0.2em;
+  border-bottom-color: #8174A0;
+  border-bottom-style: solid;
+  font-family: "Montserrat", serif;
+  color: #2E2E2E;
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.3),
+    /* Subtle dark shadow */
+    -1px -1px 2px rgba(255, 255, 255, 0.5);
+  /* Light highlight */
   text-align: left;
-  text-decoration: underline;
-  margin: 1%;
-  font-weight: 300;
-  font-style:normal;
+  background-color: #8174A0;
+  z-index: 1;
+  padding: 1%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-style: bold;
 }
 
 .working {
@@ -336,7 +377,7 @@ text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
   font-size: large;
 }
 
-.nf-md-cupcake{
+.nf-md-cupcake {
   margin-top: 10%;
 }
 
@@ -366,12 +407,13 @@ text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
   top: 5px;
   left: 5px;
 }
-.storefoot{
+
+.storefoot {
   margin-top: auto;
 }
 
 @media (min-width: 768px) {
-  .treat{
+  .treat {
     padding: 0.25em 0.75em;
   }
 }
