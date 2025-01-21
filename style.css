@@ -242,3 +242,15 @@ footer {
 .itemdes {
   max-width: 15em;
 }
+
+.working{
+  margin-top: 30em;
+max-width: 90em;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 2em;
+  border-width: 0.5em;
+  border-style: solid;
+  border-radius: 1em;
+}
