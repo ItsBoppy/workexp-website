@@ -6,3 +6,7 @@ It is very much early days and is quite primitive so bare with me.
 ## License
 
 This project is licensed under the GPL2 license. Feel free to steal this bad code.
+
+## Credits
+### Authors:
+Gideon Weiland & Daniel Byrne
