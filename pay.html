@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Order - Buns N' Roses</title>
+    <link rel="stylesheet" href="styles/pay.css">
+    <title>Pay it Forward - Buns N' Roses</title>
+</head>
+
+
+<body>
+    <!-- Header section -->
+
+    <header class="mainheader">
+
+        <div class="logodiv">
+            <img src="assets/images/cake2.webp" class="logo" alt="logo">
+
+
+            <h1 class="maintitle">
+                Buns N' Roses
+            </h1>
+        </div>
+        <div class="headerbuttons">
+            <a href="store.html">
+                <button class=nf-fa-store>‎ Store</button>
+            </a>
+            <a href="index.html">
+                <button class=nf-md-home>‎ Home</button>
+            </a>
+            <a href="cakemaker.html">
+                <button class=nf-seti-cake>‎ Custom Order</button>
+            </a>
+            <a href="about.html">
+                <button class=nf-md-information>‎ About</button>
+            </a>
+            <a href="">
+                <button class=nf-fa-shopping_basket>‎ Basket</button>
+            </a>
+        </div>
+    </header>
+
+    <header>
+        <h1 class="secondheader">Buns N' Roses</h1>
+        <p class="paragraph">Pay it Forward</p>
+    </header>
+
+    <!-- Main content -->
+    <main>
+
+
+        <!-- Form for paying it forward -->
+        <form action="/pay-it-forward" method="post">
+            <div class="formhead">
+                <div class="hthree">
+                <h2>Spread Joy with a Simple Gesture</h2><i class="nf-cod-coffee"></i>
+            </div>
+                <p>
+                    Brighten someone's day by purchasing a free coffee or bun/cake for a stranger.
+                    Your small act of kindness can make a big difference!
+                </p>
+            </div>
+            <!-- Name input -->
+            <label for="name">Your Name (Optional)</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <!-- Item selection -->
+            <label for="item">What would you like to gift?</label>
+            <select id="item" name="item" required>
+                <option value="">Select an item</option>
+                <option value="coffee">Coffee</option>
+                <option value="bun">Bun</option>
+                <option value="cake">Cake</option>
+            </select>
+
+            <!-- Quantity input -->
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+
+            <!-- Message input -->
+            <label for="message">Write a Message (Optional)</label>
+            <input type="text" id="message" name="message" placeholder="Enter a kind message">
+
+            <!-- Submit button -->
+            <button type="submit">Pay it Forward</button>
+        </form>
+    </main>
+
+    <!-- Footer section -->
+
+</body>
+<footer>
+    <div class="left">
+
+        <a href="https://www.instagram.com/_buns_n_roses_bakery/">
+            <ul class="txt">Instagram</ul>
+        </a>
+        <ul class="txt">Twitter</ul>
+        <a href="https://github.com/ItsBoppy/workexp-website" target="_blank">
+
+            <ul class="txt">Github</ul>
+        </a>
+    </div>
+
+
+    <p class="nf-cod-location">
+        123, Baker Street, Inishnabro, CO. Kerry - V94 4AB7
+
+    </p>
+
+    <div class="right">
+        <ul class="txt">About</ul>
+        <ul class="txt">Contact us </ul>
+        <ul class="txt">Rate</ul>
+    </div>
+</footer>
+
+</html>

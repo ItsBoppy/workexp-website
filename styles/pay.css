@@ -1,0 +1,288 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shrikhand&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'Mofur';
+  src: url('../assets/fonts/MonofurNerdFont-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Jet';
+  src: url('../assets/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
+}
+
+html {
+  height: 100%;
+}
+
+* {
+  margin: 0px;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #F8EDF2;
+  min-height: 100%;
+}
+
+header,
+footer {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  z-index: 1;
+}
+
+.mainheader {
+  flex-shrink: 0;
+  display: flex;
+  min-height: 4em;
+  color: #F8EDF2;
+  background-color: #8174A0;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-width: 0.5em;
+  border-style: solid;
+  border-color: #EFB6C8;
+  font-size: larger;
+}
+
+/* CSS */
+button {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #8174A0;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Jet", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+button:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+button-active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.maintitle,
+h3 {
+  font-family: "Cedarville Cursive", serif;
+  font-size: 300%;
+  font-weight: 400;
+  font-style: bold;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+.logo {
+  margin-top: 10px;
+  max-width: 70px;
+  max-height: 70px;
+  border: solid 1px #000;
+  background-color: #D6D6E7;
+  border-radius: 15%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.logodiv {
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  gap: 1em;
+  margin-left: 1em;
+}
+
+.headerbuttons {
+  justify-content: end;
+}
+
+.headerbuttons,
+.nf-fa-shopping_basket,
+.nf-fa-store,
+.nf-seti-cake,
+.nf-md-information,
+.nf-md-home {
+  margin: 1em;
+}
+.secondheader{
+  display: flex;
+  justify-content: center;
+      font-size: 48px; /* Large, prominent text */
+      font-family: 'Georgia', serif; /* Fancy serif font */
+      color: #ffbf00;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+      0px 8px 13px rgba(0,0,0,0.1),
+      0px 18px 23px rgba(0,0,0,0.1);
+  
+  }
+  .paragraph{
+    display: flex;
+  justify-content: center;
+      font-size: 18px; /* Large, prominent text */
+      font-family: 'Georgia', serif; /* Fancy serif font */
+      color: #ffbf00;
+   
+      padding: 1em;
+  }
+/* Form container styling */
+form {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #F3E6ED; /* Soft Ivory background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: #441752; /* Rich Plum text */
+ margin-bottom: auto;
+}
+
+label {
+  font-weight: bold;
+  color: #A888B5; /* Soft Lilac text for labels */
+}
+
+/* Limit input, select, textarea, button styles to forms only */
+form input, 
+form select, 
+form textarea, 
+form button {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #F3E6ED; /* Soft Ivory input fields */
+  color: #441752; /* Rich Plum text for input */
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0.5em;
+    background-color: #F3E6ED;
+    padding-bottom: 7.5em;
+    min-width: 100%;
+  }
+  
+  footer {
+    flex-shrink: 0; /* Prevent footer from shrinking */
+    height: auto; /* Allow footer height to adapt to content */
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Mofur;
+    background-color: #8174A0;
+    border-width: 0.5em;
+    border-style: solid;
+    border-color: #EFB6C8;
+    min-height: 4em;
+    margin-top: auto; /* Ensures footer is pushed to the bottom */
+  }
+  
+
+
+.formhead{
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 0.5em;
+    max-width: 25em;
+
+}
+
+.hthree{
+
+font-family: Jet;   
+text-align: center;
+}
+
+p{ text-align: justify;}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+.nf-cod-location {
+  color: #F3E6ED;
+  font-size: large;
+  text-decoration: none;
+}
+
+.nf-md-cupcake {
+  margin-top: 10%;
+}
+
+
+
+.right,
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.txt {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #8174A0;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
