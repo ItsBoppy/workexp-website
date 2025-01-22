@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'Mofur';
-    src: url('assets/fonts/MonofurNerdFont-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/MonofurNerdFont-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Jet';
-    src: url('assets/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
 }
 
 
@@ -446,13 +446,13 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    color: #441752;
+    color: #4E2A6E;
     /* Rich Plum text for readability */
 }
 
 main h2 {
     font-size: 28px;
-    color: #A888B5;
+    color: #4E2A6E;
     /* Soft Lilac for headings */
     text-align: center;
     margin-bottom: 20px;

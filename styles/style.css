@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: 'Mofur';
-  src: url('assets/fonts/MonofurNerdFont-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/MonofurNerdFont-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Jet';
-  src: url('assets/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
 }
 
 
