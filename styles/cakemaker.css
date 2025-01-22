@@ -251,7 +251,8 @@ footer p {
     color: #8174A0;
     cursor: pointer;
     display: inline-flex;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Jet", monospace;
+    margin: 0.5em;
     height: 48px;
     justify-content: center;
     line-height: 1;

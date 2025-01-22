@@ -222,7 +222,7 @@ footer {
   color: #8174A0;
   cursor: pointer;
   display: inline-flex;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Jet", monospace;
   height: 48px;
   justify-content: center;
   line-height: 1;
@@ -240,6 +240,7 @@ footer {
   white-space: nowrap;
   will-change: box-shadow, transform;
   font-size: 18px;
+  margin: 0.5em;
 }
 
 .logo {
