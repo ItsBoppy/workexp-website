@@ -1,6 +1,6 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shrikhand&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
   font-family: 'Mofur';
   src: url('../assets/fonts/MonofurNerdFont-Regular.ttf') format('truetype');
@@ -130,7 +130,9 @@ h3 {
 }
 
 h3 {
-  padding-right: 1em;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  
 }
 
 .cake {

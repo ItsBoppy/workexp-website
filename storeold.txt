@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+
+    <title>Buns N' Roses</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <script src="data.js"></script>
+
+</head>
+
+
+<body>
+
+
+
+
+    <header class="mainheader">
+
+
+        <div class="logodiv">
+
+            <img src="assets/images/cake2.webp" class="logo" alt="logo">
+
+
+
+            <h1 id="maintitle">
+
+                Buns N' Roses
+
+            </h1>
+
+        </div>
+
+        <div class="headerbuttons">
+
+            <a href="index.html">
+
+                <button class=nf-md-home>‎ Home</button>
+
+            </a>
+
+            <a href="cakemaker.html">
+
+                <button class=nf-seti-cake>‎ Custom Order</button>
+
+
+            </a>
+
+            <a href="pay.html">
+
+                <button class=nf-md-hand_coin>‎ Pay Foward</button>
+
+            </a>
+
+            <a href="about.html">
+
+                <button class=nf-md-information>‎ About</button>
+
+            </a>
+
+            <a href="">
+
+                <button class=nf-fa-shopping_basket>‎ Basket</button>
+
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <h1 id="store-title">
+
+        <span>--{ Cake Selection }--</span>
+
+    </h1>
+
+
+
+    <div class="productpage">
+
+        <div class="item">
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle
+
+                of silky chocolate ganache. </p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+
+        <div class="item">
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle
+
+                of silky chocolate ganache. </p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+        <div class="item">
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle of silky chocolate ganache.</p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+        <div class="item">
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle of silky chocolate ganache.!</p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+        <div class="item">
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle of silky chocolate ganache.</p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+        <div class="item">
+
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle of silky chocolate ganache.</p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+        <div class="item">
+
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle of silky chocolate ganache.</p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="productpage">
+
+        <div class="item">
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle
+
+                of silky chocolate ganache. </p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+
+        <div class="item">
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle
+
+                of silky chocolate ganache. </p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+        <div class="item">
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle of silky chocolate ganache.</p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+        <div class="item">
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle of silky chocolate ganache.!</p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+        <div class="item">
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle of silky chocolate ganache.</p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+        <div class="item">
+
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle of silky chocolate ganache.</p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+        <div class="item">
+
+
+            <img src="assets/images/cake1.webp" class="storepic">
+
+            <h4 class="itemhead">Red Velvet Delight</h4>
+
+            <p class="itemdes">
+
+                Indulge in our stunning red velvet cake layered with luscious cream and topped with a generous
+
+                drizzle of silky chocolate ganache.</p>
+
+            <button class="item-button">Buy me</button>
+
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+<footer>
+
+    <div class="left">
+
+
+        <a href="https://www.instagram.com/_buns_n_roses_bakery/" target="_blank">
+
+        <ul class="txt nf-fa-instagram">‎ Instagram</ul>
+
+    </a>
+
+        <ul class="txt nf-dev-twitter">‎  Twitter</ul>
+
+        <a href="https://github.com/ItsBoppy/workexp-website" target="_blank">
+
+
+            <ul class="txt nf-cod-github">‎  Github</ul>
+
+        </a>
+
+        </div>
+
+
+   
+
+        <p class="nf-cod-location">
+
+            123, Baker Street, Inishnabro, CO. Kerry - V94 4AB7
+
+
+        </p>
+
+    
+
+    <div class="right">
+
+      
+
+        <ul class="txt nf-cod-call_incoming">‎ Contact us </ul>
+
+        <ul class="txt nf-fa-yelp">‎ Rate Us</ul>
+
+    </div>
+
+</footer>
+
+
+</html> 
