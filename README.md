@@ -11,7 +11,7 @@ This project is licensed under the GPL2 license. Feel free to steal this bad cod
 
 ## Credits
 ### Authors:
-Gideon Weiland & Daniel Byrne
+Gideon Weiland & David Byrne
 
 ### Logos:
 Sara Karat
