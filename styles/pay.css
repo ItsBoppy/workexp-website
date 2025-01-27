@@ -10,7 +10,16 @@
   font-family: 'Jet';
   src: url('../assets/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
 }
-
+.payimg{
+  display: flex;
+max-width: 95%;
+  border-style: solid;
+  border-color: #8174A0;
+  border-radius: 10%;
+  margin: auto;
+  padding: auto;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
 html {
   height: 100%;
 }
@@ -214,9 +223,13 @@ form button {
     margin-top: auto; /* Ensures footer is pushed to the bottom */
   }
   
+  h2{
+    padding-top: 1em;
+  }
 
 
 .formhead{
+  
   margin-left: auto;
   margin-right: auto;
     margin-bottom: 0.5em;
