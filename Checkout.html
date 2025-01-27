@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Buns N' Roses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #A888B5; /* Soft Lilac background */
+            margin: 0;
+            padding: 0;
+            color: #F3E6ED; /* Soft Ivory text */
+        }
+
+        header {
+            text-align: center;
+            background-color: #A888B5;
+            color: #F3E6ED;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            font-size: 48px;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to right, #ffdf00, #ffbf00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            letter-spacing: 3px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 10px 0 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #F3E6ED;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            color: #A888B5;
+        }
+
+        main h2 {
+            font-size: 28px;
+            color: #A888B5;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #A888B5;
+        }
+
+        input, select, textarea, button {
+            width: 100%;
+            max-width: 600px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        input, select, textarea {
+            background-color: #F3E6ED;
+            color: #A888B5;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        button {
+            background-color: #ffbf00;
+            color: #A888B5;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #ffdf00;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #A888B5;
+            color: #F3E6ED;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Buns N' Roses</h1>
+        <p>Checkout</p>
+    </header>
+
+    <main>
+        <h2>Complete Your Purchase</h2>
+
+        <!-- Checkout Form -->
+        <form id="checkout-form">
+            <!-- Name -->
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <!-- Email -->
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <!-- Address -->
+            <label for="address">Shipping Address</label>
+            <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+
+            <!-- Payment Method -->
+            <label for="payment-method">Payment Method</label>
+            <select id="payment-method" name="payment_method" required>
+                <option value="credit-card">Credit/Debit Card</option>
+                <option value="paypal">PayPal</option>
+            </select>
+
+            <!-- Card Details -->
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+
+            <label for="expiry-date">Expiry Date</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+
+            <!-- Submit Button -->
+            <button type="submit">Complete Checkout</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Buns N' Roses. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Redirect to the "Thank You" page
+        document.getElementById("checkout-form").addEventListener("submit", function (e) {
+            e.preventDefault(); // Prevent actual form submission
+            window.location.href = "thank-you.html"; // Redirect to Thank You page
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
