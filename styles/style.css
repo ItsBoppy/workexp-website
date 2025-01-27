@@ -220,7 +220,7 @@ footer {
   justify-content: end;
 }
 
-#store-title {
+.store-title {
   display: flex;
   font-style: italic;
   justify-content: center;

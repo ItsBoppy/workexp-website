@@ -1,61 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+  
+    <link rel="stylesheet" href="styles/about.css">
     <title>Checkout - Buns N' Roses</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #A888B5; /* Soft Lilac background */
-            margin: 0;
-            padding: 0;
-            color: #F3E6ED; /* Soft Ivory text */
-        }
-
-        header {
-            text-align: center;
-            background-color: #A888B5;
-            color: #F3E6ED;
-            padding: 30px 0;
-        }
-
-        header h1 {
-            font-size: 48px;
-            font-family: 'Georgia', serif;
-            background: linear-gradient(to right, #ffdf00, #ffbf00);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin: 0;
-            letter-spacing: 3px;
-        }
-
-        header p {
-            font-size: 20px;
-            margin: 10px 0 0;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 40px auto;
-            background: #F3E6ED;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            color: #A888B5;
-        }
-
-        main h2 {
-            font-size: 28px;
-            color: #A888B5;
-            text-align: center;
-            margin-bottom: 20px;
-        }
+        
 
         form {
             display: flex;
+            
             flex-direction: column;
             gap: 20px;
+            min-width: 50em;
         }
 
         label {
@@ -63,16 +27,21 @@
             color: #A888B5;
         }
 
-        input, select, textarea, button {
+        input,
+        select,
+        textarea {
             width: 100%;
-            max-width: 600px;
+            max-width: 48em;
             padding: 10px;
             font-size: 16px;
             border: 1px solid #ddd;
             border-radius: 5px;
+            margin: auto;
         }
 
-        input, select, textarea {
+        input,
+        select,
+        textarea {
             background-color: #F3E6ED;
             color: #A888B5;
         }
@@ -82,39 +51,41 @@
             min-height: 80px;
         }
 
-        button {
-            background-color: #ffbf00;
-            color: #A888B5;
-            border: none;
-            cursor: pointer;
-            font-size: 18px;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        button:hover {
-            background-color: #ffdf00;
-        }
-
-        footer {
-            text-align: center;
-            background-color: #A888B5;
-            color: #F3E6ED;
-            padding: 10px 0;
-            margin-top: 40px;
-        }
-
-        footer p {
-            margin: 0;
-            font-size: 14px;
-        }
+        
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>Buns N' Roses</h1>
-        <p>Checkout</p>
+    <header class="mainheader">
+     
+        <div class="logodiv">
+            <img src="assets/images/cake2.webp" class="logo" alt="logo">
+
+
+            <h1 id="about-title">
+                Buns N' Roses
+            </h1>
+        </div>
+        <div class="headerbuttons">
+
+            <a href="store.html">
+                <button class=nf-fa-store>‎ Store</button>
+            </a>
+           <a href="cakemaker.html">
+            <button class=nf-seti-cake>‎ Custom Order</button>
+        </a>
+        <a href="pay.html">
+            <button class=nf-md-hand_coin>‎ Pay Foward</button>
+        </a>
+            <a href="index.html">
+                <button class=nf-md-home>‎ Home</button>
+            </a>
+            <a href="">
+                <button class=nf-fa-shopping_basket>‎ Basket</button>
+            </a>
+        </div>
     </header>
+  
 
     <main>
         <h2>Complete Your Purchase</h2>
@@ -156,9 +127,30 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Buns N' Roses. All rights reserved.</p>
+        <div class="left">
+    
+            <a href="https://www.instagram.com/_buns_n_roses_bakery/" target="_blank">
+            <ul class="txt nf-fa-instagram">‎ Instagram</ul>
+        </a>
+            <ul class="txt nf-dev-twitter">‎  Twitter</ul>
+            <a href="https://github.com/ItsBoppy/workexp-website" target="_blank">
+    
+                <ul class="txt nf-cod-github">‎  Github</ul>
+            </a>
+            </div>
+    
+       
+            <p class="nf-cod-location">
+                123, Baker Street, Inishnabro, CO. Kerry - V94 4AB7
+    
+            </p>
+        
+        <div class="right">
+          
+            <ul class="txt nf-cod-call_incoming">‎ Contact us </ul>
+            <ul class="txt nf-fa-yelp">‎ Rate Us</ul>
+        </div>
     </footer>
-
     <script>
         // Redirect to the "Thank You" page
         document.getElementById("checkout-form").addEventListener("submit", function (e) {
@@ -167,9 +159,5 @@
         });
     </script>
 </body>
+
 </html>
-
-
-
-
-
