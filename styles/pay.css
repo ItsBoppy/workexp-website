@@ -131,6 +131,10 @@ h3 {
   margin-left: 1em;
 }
 
+.para{
+  margin: 1em;
+}
+
 .headerbuttons {
   justify-content: end;
 }
@@ -177,7 +181,7 @@ form {
 
 label {
   font-weight: bold;
-  color: #A888B5; /* Soft Lilac text for labels */
+  color: #441752; /* Soft Lilac text for labels */
 }
 
 /* Limit input, select, textarea, button styles to forms only */
@@ -226,7 +230,11 @@ form button {
   h2{
     padding-top: 1em;
   }
+.caffeine{
+  display: flex;
+  flex-direction: row;
 
+}
 
 .formhead{
   
@@ -258,7 +266,7 @@ footer p {
 }
 
 .nf-md-cupcake {
-  margin-top: 10%;
+  margin-top: 4em;
 }
 
 
