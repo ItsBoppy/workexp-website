@@ -258,7 +258,7 @@ flex-shrink: inherit;
   min-width: 12em; /* Minimum width to prevent it from getting too small */
   max-width: 16em; /* Maximum width to prevent it from getting too large */
   height: auto; /* Let height adjust based on content */
-  min-height: 24em; /* Minimum height */
+  min-height: 2em; /* Minimum height */
   max-height: 30em; /* Maximum height */
   background-color: #EFB6C8;
   text-align: center;
