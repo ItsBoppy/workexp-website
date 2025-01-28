@@ -257,7 +257,6 @@ footer {
   justify-items: center;
   align-items: center;
 }
-
 .item {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   margin: 1em;
@@ -272,14 +271,17 @@ footer {
   text-align: center;
   display: flex;
   flex-direction: column; /* Stack children vertically */
+  flex-shrink: 1; /* Allow the item to shrink */
+  flex-grow: 1; /* Allow the item to grow */
+  overflow: hidden; /* Prevent content from overflowing */
 }
 
 .item-button {
-padding: auto;
+  padding: auto;
   margin-top: 0.5em;
-  padding-bottom: 0.5em;  
+  padding-bottom: 0.5em;
   margin-bottom: 0.5em;
-  /* Push the button to the bottom */
+  flex-shrink: 0; /* Prevent the button from shrinking */
 }
 
 .itemdes {
@@ -290,7 +292,9 @@ padding: auto;
   font-family: "Courier Prime", serif;
   font-size: 1em;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
-  text-align:initial
+  text-align: initial;
+  flex-grow: 1; /* Allow the description to grow and take up remaining space */
+  overflow: auto; /* Add scroll if content overflows */
 }
 
 .itemhead {
@@ -309,7 +313,18 @@ padding: auto;
   padding: 1%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   font-style: bold;
+  flex-shrink: 0; /* Prevent the header from shrinking */
 }
+
+
+@media (max-width: 768px) {
+  .item {
+    max-width: 10em; /* Reduce max-width for smaller screens */
+    min-height: 20em; /* Reduce min-height for smaller screens */
+    max-height: 20em; /* Reduce max-height for smaller screens */
+  }
+}
+
 
 .working {
   margin-top: 30em;
