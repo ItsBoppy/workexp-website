@@ -238,21 +238,11 @@ footer {
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
-.storepic {
-  display: flex;
-  justify-content: flex-start;
-  text-align: center;
-  max-width: 12em;
-  border-bottom-style: solid;
-  border-bottom-color: #8174A0;
-  border-top-left-radius: 0.9em;
-  border-top-right-radius: 0.9em;
-}
 
 .productpage {
-  row-gap: 3em;
+  row-gap: 2em;
   display: flex;
-  flex-wrap: wrap;
+flex-shrink: inherit;
   justify-content: space-evenly;
   justify-items: center;
   align-items: center;
@@ -264,35 +254,46 @@ footer {
   border-color: #8174A0;
   border-style: solid;
   border-radius: 1em;
-  max-width: 12em;
-  min-height: 25em;
-  max-height: 25em;
+  width: 20vw; /* Use viewport width for scaling */
+  min-width: 12em; /* Minimum width to prevent it from getting too small */
+  max-width: 16em; /* Maximum width to prevent it from getting too large */
+  height: auto; /* Let height adjust based on content */
+  min-height: 24em; /* Minimum height */
+  max-height: 30em; /* Maximum height */
   background-color: #EFB6C8;
   text-align: center;
   display: flex;
   flex-direction: column; /* Stack children vertically */
-  flex-shrink: 1; /* Allow the item to shrink */
-  flex-grow: 1; /* Allow the item to grow */
   overflow: hidden; /* Prevent content from overflowing */
 }
 
+.storepic {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  width: 100%; /* Make the image scale with the container */
+  height: auto; /* Maintain aspect ratio */
+  border-bottom-style: solid;
+  border-bottom-color: #8174A0;
+  border-top-left-radius: 0.9em;
+  border-top-right-radius: 0.9em;
+}
+
 .item-button {
-  padding: auto;
-  margin-top: 0.5em;
-  padding-bottom: 0.5em;
-  margin-bottom: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: 1em; /* Use relative units */
   flex-shrink: 0; /* Prevent the button from shrinking */
 }
 
 .itemdes {
   color: #4E2A6E;
   margin: 1%;
-  max-width: 12em;
+  padding: 0.5em;
   text-align: left;
   font-family: "Courier Prime", serif;
-  font-size: 1em;
+  font-size: 1em; /* Use relative units */
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
-  text-align: initial;
   flex-grow: 1; /* Allow the description to grow and take up remaining space */
   overflow: auto; /* Add scroll if content overflows */
 }
@@ -304,7 +305,7 @@ footer {
   border-bottom-color: #8174A0;
   border-bottom-style: solid;
   font-family: "Montserrat", serif;
-  font-size: 0.8em;
+  font-size: 0.9em; /* Use relative units */
   color: #2E2E2E;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -1px -1px 2px rgba(255, 255, 255, 0.5);
   text-align: left;
@@ -312,17 +313,8 @@ footer {
   z-index: 1;
   padding: 1%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  font-style: bold;
+  font-weight: bold; /* Use font-weight instead of font-style for bold */
   flex-shrink: 0; /* Prevent the header from shrinking */
-}
-
-
-@media (max-width: 768px) {
-  .item {
-    max-width: 10em; /* Reduce max-width for smaller screens */
-    min-height: 20em; /* Reduce min-height for smaller screens */
-    max-height: 20em; /* Reduce max-height for smaller screens */
-  }
 }
 
 
